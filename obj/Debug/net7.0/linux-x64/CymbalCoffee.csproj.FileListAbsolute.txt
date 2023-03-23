@@ -1,0 +1,1 @@
+/home/admin_falopez_altostrat_com/CymbalCoffee/obj/Debug/net7.0/linux-x64/CymbalCoffee.csproj.AssemblyReference.cache

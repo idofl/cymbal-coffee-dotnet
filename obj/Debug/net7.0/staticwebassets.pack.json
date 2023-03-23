@@ -1,0 +1,65 @@
+{
+  "Files": [
+    {
+      "Id": "/home/admin_falopez_altostrat_com/CymbalCoffee/wwwroot/content/coffee.png",
+      "PackagePath": "staticwebassets/content/coffee.png"
+    },
+    {
+      "Id": "/home/admin_falopez_altostrat_com/CymbalCoffee/wwwroot/content/cymbal.png",
+      "PackagePath": "staticwebassets/content/cymbal.png"
+    },
+    {
+      "Id": "/home/admin_falopez_altostrat_com/CymbalCoffee/wwwroot/css/bootstrap.css",
+      "PackagePath": "staticwebassets/css/bootstrap.css"
+    },
+    {
+      "Id": "/home/admin_falopez_altostrat_com/CymbalCoffee/wwwroot/css/bootstrap.css.map",
+      "PackagePath": "staticwebassets/css/bootstrap.css.map"
+    },
+    {
+      "Id": "/home/admin_falopez_altostrat_com/CymbalCoffee/wwwroot/css/bootstrap.min.css",
+      "PackagePath": "staticwebassets/css/bootstrap.min.css"
+    },
+    {
+      "Id": "/home/admin_falopez_altostrat_com/CymbalCoffee/wwwroot/css/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/css/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/home/admin_falopez_altostrat_com/CymbalCoffee/wwwroot/css/bootstrap.rtl.css",
+      "PackagePath": "staticwebassets/css/bootstrap.rtl.css"
+    },
+    {
+      "Id": "/home/admin_falopez_altostrat_com/CymbalCoffee/wwwroot/css/bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets/css/bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "/home/admin_falopez_altostrat_com/CymbalCoffee/wwwroot/css/bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets/css/bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "/home/admin_falopez_altostrat_com/CymbalCoffee/wwwroot/css/bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets/css/bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "/home/admin_falopez_altostrat_com/CymbalCoffee/wwwroot/css/site.css",
+      "PackagePath": "staticwebassets/css/site.css"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.CymbalCoffee.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.build.CymbalCoffee.props",
+      "PackagePath": "build\\CymbalCoffee.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.CymbalCoffee.props",
+      "PackagePath": "buildMultiTargeting\\CymbalCoffee.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.CymbalCoffee.props",
+      "PackagePath": "buildTransitive\\CymbalCoffee.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

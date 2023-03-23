@@ -1,0 +1,713 @@
+﻿{
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "Dependency Analysis",
+          "semanticVersion": "0.4.410601",
+          "informationUri": "https://docs.microsoft.com/en-us/dotnet/core/porting/upgrade-assistant-overview",
+          "rules": [
+            {
+              "id": "UA103",
+              "name": "ReferenceToBeDeleted",
+              "fullDescription": {
+                "text": "References that need to be deleted in order to upgrade the project to chosen TFM"
+              },
+              "helpUri": "https://docs.microsoft.com/en-us/dotnet/core/porting/upgrade-assistant-overview"
+            },
+            {
+              "id": "UA105",
+              "name": "PackageToBeDeleted",
+              "fullDescription": {
+                "text": "Packages that need to be deleted in order to upgrade the project to chosen TFM"
+              },
+              "helpUri": "https://docs.microsoft.com/en-us/dotnet/core/porting/upgrade-assistant-overview"
+            },
+            {
+              "id": "UA106",
+              "name": "PackageToBeAdded",
+              "fullDescription": {
+                "text": "Packages that need to be added in order to upgrade the project to chosen TFM"
+              },
+              "helpUri": "https://docs.microsoft.com/en-us/dotnet/core/porting/upgrade-assistant-overview"
+            },
+            {
+              "id": "UA108",
+              "name": "FrameworkReferenceToBeAdded",
+              "fullDescription": {
+                "text": "Framework Reference that need to be added in order to upgrade the project to chosen TFM"
+              },
+              "helpUri": "https://docs.microsoft.com/en-us/dotnet/core/porting/upgrade-assistant-overview"
+            }
+          ]
+        }
+      },
+      "results": [
+        {
+          "ruleId": "UA103",
+          "level": "note",
+          "message": {
+            "text": "Reference to System.Web.DynamicData needs to be deleted."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/admin/source/repos/CymbalCoffee/CymbalCoffee/CymbalCoffee.csproj"
+                },
+                "region": {}
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UA103",
+          "level": "note",
+          "message": {
+            "text": "Reference to System.Web.Entity needs to be deleted."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/admin/source/repos/CymbalCoffee/CymbalCoffee/CymbalCoffee.csproj"
+                },
+                "region": {}
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UA103",
+          "level": "note",
+          "message": {
+            "text": "Reference to System.Web.ApplicationServices needs to be deleted."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/admin/source/repos/CymbalCoffee/CymbalCoffee/CymbalCoffee.csproj"
+                },
+                "region": {}
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UA103",
+          "level": "note",
+          "message": {
+            "text": "Reference to System.Web needs to be deleted."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/admin/source/repos/CymbalCoffee/CymbalCoffee/CymbalCoffee.csproj"
+                },
+                "region": {}
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UA103",
+          "level": "note",
+          "message": {
+            "text": "Reference to System.Web.Extensions needs to be deleted."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/admin/source/repos/CymbalCoffee/CymbalCoffee/CymbalCoffee.csproj"
+                },
+                "region": {}
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UA103",
+          "level": "note",
+          "message": {
+            "text": "Reference to System.Web.Abstractions needs to be deleted."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/admin/source/repos/CymbalCoffee/CymbalCoffee/CymbalCoffee.csproj"
+                },
+                "region": {}
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UA103",
+          "level": "note",
+          "message": {
+            "text": "Reference to System.Web.Routing needs to be deleted."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/admin/source/repos/CymbalCoffee/CymbalCoffee/CymbalCoffee.csproj"
+                },
+                "region": {}
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UA103",
+          "level": "note",
+          "message": {
+            "text": "Reference to System.Configuration needs to be deleted."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/admin/source/repos/CymbalCoffee/CymbalCoffee/CymbalCoffee.csproj"
+                },
+                "region": {}
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UA103",
+          "level": "note",
+          "message": {
+            "text": "Reference to System.Web.Services needs to be deleted."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/admin/source/repos/CymbalCoffee/CymbalCoffee/CymbalCoffee.csproj"
+                },
+                "region": {}
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UA103",
+          "level": "note",
+          "message": {
+            "text": "Reference to System.Net.Http.WebRequest needs to be deleted."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/admin/source/repos/CymbalCoffee/CymbalCoffee/CymbalCoffee.csproj"
+                },
+                "region": {}
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UA103",
+          "level": "note",
+          "message": {
+            "text": "Reference to System.Web.Helpers needs to be deleted."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/admin/source/repos/CymbalCoffee/CymbalCoffee/CymbalCoffee.csproj"
+                },
+                "region": {}
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UA103",
+          "level": "note",
+          "message": {
+            "text": "Reference to System.Web.Mvc needs to be deleted."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/admin/source/repos/CymbalCoffee/CymbalCoffee/CymbalCoffee.csproj"
+                },
+                "region": {}
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UA103",
+          "level": "note",
+          "message": {
+            "text": "Reference to System.Web.Optimization needs to be deleted."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/admin/source/repos/CymbalCoffee/CymbalCoffee/CymbalCoffee.csproj"
+                },
+                "region": {}
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UA103",
+          "level": "note",
+          "message": {
+            "text": "Reference to System.Web.Razor needs to be deleted."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/admin/source/repos/CymbalCoffee/CymbalCoffee/CymbalCoffee.csproj"
+                },
+                "region": {}
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UA103",
+          "level": "note",
+          "message": {
+            "text": "Reference to System.Web.WebPages needs to be deleted."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/admin/source/repos/CymbalCoffee/CymbalCoffee/CymbalCoffee.csproj"
+                },
+                "region": {}
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UA103",
+          "level": "note",
+          "message": {
+            "text": "Reference to System.Web.WebPages.Deployment needs to be deleted."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/admin/source/repos/CymbalCoffee/CymbalCoffee/CymbalCoffee.csproj"
+                },
+                "region": {}
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UA103",
+          "level": "note",
+          "message": {
+            "text": "Reference to System.Web.WebPages.Razor needs to be deleted."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/admin/source/repos/CymbalCoffee/CymbalCoffee/CymbalCoffee.csproj"
+                },
+                "region": {}
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UA105",
+          "level": "note",
+          "message": {
+            "text": "Package Antlr, Version=3.5.0.2 needs to be deleted."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/admin/source/repos/CymbalCoffee/CymbalCoffee/CymbalCoffee.csproj"
+                },
+                "region": {}
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UA105",
+          "level": "note",
+          "message": {
+            "text": "Package Microsoft.AspNet.Mvc, Version=5.2.9 needs to be deleted."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/admin/source/repos/CymbalCoffee/CymbalCoffee/CymbalCoffee.csproj"
+                },
+                "region": {}
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UA105",
+          "level": "note",
+          "message": {
+            "text": "Package Microsoft.AspNet.Razor, Version=3.2.9 needs to be deleted."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/admin/source/repos/CymbalCoffee/CymbalCoffee/CymbalCoffee.csproj"
+                },
+                "region": {}
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UA105",
+          "level": "note",
+          "message": {
+            "text": "Package Microsoft.AspNet.Web.Optimization, Version=1.1.3 needs to be deleted."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/admin/source/repos/CymbalCoffee/CymbalCoffee/CymbalCoffee.csproj"
+                },
+                "region": {}
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UA105",
+          "level": "note",
+          "message": {
+            "text": "Package Microsoft.AspNet.WebPages, Version=3.2.9 needs to be deleted."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/admin/source/repos/CymbalCoffee/CymbalCoffee/CymbalCoffee.csproj"
+                },
+                "region": {}
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UA105",
+          "level": "note",
+          "message": {
+            "text": "Package Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=2.0.1 needs to be deleted."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/admin/source/repos/CymbalCoffee/CymbalCoffee/CymbalCoffee.csproj"
+                },
+                "region": {}
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UA105",
+          "level": "note",
+          "message": {
+            "text": "Package Microsoft.Web.Infrastructure, Version=2.0.1 needs to be deleted."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/admin/source/repos/CymbalCoffee/CymbalCoffee/CymbalCoffee.csproj"
+                },
+                "region": {}
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UA105",
+          "level": "note",
+          "message": {
+            "text": "Package WebGrease, Version=1.6.0 needs to be deleted."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/admin/source/repos/CymbalCoffee/CymbalCoffee/CymbalCoffee.csproj"
+                },
+                "region": {}
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UA106",
+          "level": "note",
+          "message": {
+            "text": "Package Antlr4, Version=4.6.6 needs to be added."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/admin/source/repos/CymbalCoffee/CymbalCoffee/CymbalCoffee.csproj"
+                },
+                "region": {}
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UA106",
+          "level": "note",
+          "message": {
+            "text": "Package System.Configuration.ConfigurationManager, Version=5.0.0 needs to be added."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/admin/source/repos/CymbalCoffee/CymbalCoffee/CymbalCoffee.csproj"
+                },
+                "region": {}
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UA106",
+          "level": "note",
+          "message": {
+            "text": "Package System.Net.Http, Version=4.3.4 needs to be added."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/admin/source/repos/CymbalCoffee/CymbalCoffee/CymbalCoffee.csproj"
+                },
+                "region": {}
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UA106",
+          "level": "note",
+          "message": {
+            "text": "Package Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=3.6.0 needs to be added."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/admin/source/repos/CymbalCoffee/CymbalCoffee/CymbalCoffee.csproj"
+                },
+                "region": {}
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UA106",
+          "level": "note",
+          "message": {
+            "text": "Package Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers, Version=0.4.410601 needs to be added."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/admin/source/repos/CymbalCoffee/CymbalCoffee/CymbalCoffee.csproj"
+                },
+                "region": {}
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UA108",
+          "level": "note",
+          "message": {
+            "text": "Framework Reference to Microsoft.AspNetCore.App needs to be added."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/admin/source/repos/CymbalCoffee/CymbalCoffee/CymbalCoffee.csproj"
+                },
+                "region": {}
+              }
+            }
+          ]
+        }
+      ],
+      "columnKind": "utf16CodeUnits"
+    },
+    {
+      "tool": {
+        "driver": {
+          "name": "API Upgradability",
+          "semanticVersion": "0.4.410601",
+          "informationUri": "https://docs.microsoft.com/en-us/dotnet/core/porting/upgrade-assistant-overview",
+          "rules": [
+            {
+              "id": "UA0002",
+              "name": "Types should be upgraded",
+              "fullDescription": {
+                "text": "Types should be upgraded"
+              }
+            },
+            {
+              "id": "UA0013_C",
+              "name": "Replace usage of System.Web.Optimization.BundleCollection",
+              "fullDescription": {
+                "text": "Replace usage of System.Web.Optimization.BundleCollection"
+              }
+            }
+          ]
+        }
+      },
+      "results": [
+        {
+          "ruleId": "UA0002",
+          "level": "note",
+          "message": {
+            "text": "Type 'Controller' should be replaced with 'Microsoft.AspNetCore.Mvc.Controller'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/admin/source/repos/CymbalCoffee/CymbalCoffee/Controllers/HomeController.cs"
+                },
+                "region": {
+                  "startLine": 9
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UA0002",
+          "level": "note",
+          "message": {
+            "text": "Type 'ActionResult' should be replaced with 'Microsoft.AspNetCore.Mvc.ActionResult'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/admin/source/repos/CymbalCoffee/CymbalCoffee/Controllers/HomeController.cs"
+                },
+                "region": {
+                  "startLine": 11
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UA0002",
+          "level": "note",
+          "message": {
+            "text": "Type 'ActionResult' should be replaced with 'Microsoft.AspNetCore.Mvc.ActionResult'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/admin/source/repos/CymbalCoffee/CymbalCoffee/Controllers/HomeController.cs"
+                },
+                "region": {
+                  "startLine": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UA0002",
+          "level": "note",
+          "message": {
+            "text": "Type 'ActionResult' should be replaced with 'Microsoft.AspNetCore.Mvc.ActionResult'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/admin/source/repos/CymbalCoffee/CymbalCoffee/Controllers/HomeController.cs"
+                },
+                "region": {
+                  "startLine": 23
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UA0013_C",
+          "level": "note",
+          "message": {
+            "text": "Script and style bundling works differently in ASP.NET Core. BundleCollection should be replaced by alternative bundling technologies. https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/admin/source/repos/CymbalCoffee/CymbalCoffee/App_Start/BundleConfig.cs"
+                },
+                "region": {
+                  "startLine": 9
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "columnKind": "utf16CodeUnits"
+    },
+    {
+      "tool": {
+        "driver": {
+          "name": "Component Analysis",
+          "semanticVersion": "0.4.410601",
+          "informationUri": "https://docs.microsoft.com/en-us/dotnet/core/porting/upgrade-assistant-overview"
+        }
+      },
+      "results": [],
+      "columnKind": "utf16CodeUnits"
+    }
+  ]
+}
