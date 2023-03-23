@@ -1,11 +1,11 @@
 steps:
 # Docker Build on Cloud Build
 - name: 'gcr.io/cloud-builders/docker'
-  args: ['build', '-t', 'europe-west2-docker.pkg.dev/winappmod-demo-test/cymbal-coffee/cymbalcoffee', '.']
+  args: ['build', '-t', 'europe-west2-docker.pkg.dev/winappmod-demo-test/cymbal-coffee/cymbalcoffee:$SHORT_SHA', '.']
  
 # Docker Push to Artifact Registry
 - name: 'gcr.io/cloud-builders/docker'
-  args: ['push', 'europe-west2-docker.pkg.dev/winappmod-demo-test/cymbal-coffee/cymbalcoffee'] 
+  args: ['push', 'europe-west2-docker.pkg.dev/winappmod-demo-test/cymbal-coffee/cymbalcoffee:$SHORT_SHA'] 
 
 # Deploy container image to Cloud Run
 - name: 'gcr.io/cloud-builders/gcloud'
