@@ -9,7 +9,7 @@ steps:
 
 # Deploy container image to Cloud Run
 - name: 'gcr.io/cloud-builders/gcloud'
-  args: ['run', 'deploy', 'cymbal-coffee', '--image', 'europe-west2-docker.pkg.dev/winappmod-demo-test/cymbal-coffee:$SHORT_SHA', '--region', 'europre-west2', '--platform', 'managed', '--allow-unauthenticated']
+  args: ['run', 'deploy', 'cymbal-coffee', '--image', 'europe-west2-docker.pkg.dev/winappmod-demo-test/cymbal-coffee:$SHORT_SHA', '--region', 'europe-west2', '--platform', 'managed', '--allow-unauthenticated']
 
 images:
 - europe-west2-docker.pkg.dev/winappmod-demo-test/cymbal-coffee
