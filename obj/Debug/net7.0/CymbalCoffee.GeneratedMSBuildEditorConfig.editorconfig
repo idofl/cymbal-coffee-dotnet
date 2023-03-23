@@ -16,7 +16,7 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /home/admin_falopez_altostrat_com/CymbalCoffee
 build_property._RazorSourceGeneratorDebug = 
 
-[/root/.nuget/packages/microsoft.dotnet.upgradeassistant.extensions.default.analyzers/0.4.410601/build/WebTypeReplacements.typemap]
+[/home/admin_falopez_altostrat_com/.nuget/packages/microsoft.dotnet.upgradeassistant.extensions.default.analyzers/0.4.410601/build/WebTypeReplacements.typemap]
 build_metadata.AdditionalFiles.TargetPath = 
 build_metadata.AdditionalFiles.CssScope = 
 

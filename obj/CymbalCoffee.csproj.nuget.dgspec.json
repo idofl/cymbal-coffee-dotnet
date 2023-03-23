@@ -10,11 +10,11 @@
         "projectUniqueName": "/home/admin_falopez_altostrat_com/CymbalCoffee/CymbalCoffee.csproj",
         "projectName": "CymbalCoffee",
         "projectPath": "/home/admin_falopez_altostrat_com/CymbalCoffee/CymbalCoffee.csproj",
-        "packagesPath": "/root/.nuget/packages/",
+        "packagesPath": "/home/admin_falopez_altostrat_com/.nuget/packages/",
         "outputPath": "/home/admin_falopez_altostrat_com/CymbalCoffee/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/root/.nuget/NuGet/NuGet.Config"
+          "/home/admin_falopez_altostrat_com/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
