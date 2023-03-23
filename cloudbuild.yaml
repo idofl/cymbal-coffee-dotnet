@@ -9,7 +9,6 @@ steps:
 
   # Deploy container image to Cloud Run
   - name: 'gcr.io/cloud-builders/gcloud'
-    entrypoint: gcloud
     args: ['run', 'deploy', 'cymbal-coffee', '--image', 'europe-west2-docker.pkg.dev/winappmod-demo-test/cymbal-coffee', '--region', 'europe-west1']
   images:
   - europe-west2-docker.pkg.dev/winappmod-demo-test/cymbal-coffee
