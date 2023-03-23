@@ -1,5 +1,4 @@
 steps:
-  steps:
   # Docker Build on Cloud Build
   - name: 'gcr.io/cloud-builders/docker'
     args: ['build', '-t', 'europe-west2-docker.pkg.dev/winappmod-demo-test/cymbal-coffee/cymbalcoffee', '.']
