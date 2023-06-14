@@ -14,7 +14,7 @@ steps:
     [
       'deploy', 'releases', 'create', 'rel-${SHORT_SHA}',
       '--delivery-pipeline', 'my-run-cymbal',
-      '--region', '$LOCATION',
+      '--region', 'us-central1',
       '--source', 'deploy-run-cymbal/',
       '--annotations', 'commitId=${REVISION_ID}',
       '--images', 'my-app-image=$LOCATION-docker.pkg.dev/$PROJECT_ID/cymbal-coffee/cymbalcoffee:$SHORT_SHA'
